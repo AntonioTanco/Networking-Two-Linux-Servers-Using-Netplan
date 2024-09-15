@@ -159,7 +159,7 @@ enp0s8:
   addresses:
     - 192.168.1.10/24
   routes:
-    # This allows for Node 2 to communicate with Node 1 via the 'default gateway: 192.168.1.1' 
+    # This allows for Node 1 to communicate with Node 2 via the 'default gateway: 192.168.1.1' 
     - to: 192.168.1.20/24
       via: 192.168.1.1
   nameservers:
